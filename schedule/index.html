@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="开发中       console.log(&apos;test&apos;)       //接收 	//响应事件 	window.onload = function() { 		window.addEventListener(&apos;message&apos;,function(event) {              			debugger 			// if(event.origin !== &apos;http://www.chen">
+<meta name="description" content="开发中       console.log(&apos;test&apos;)">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ChenYunqing&#39;s Blog">
 <meta property="og:url" content="YunqingChen.coding.me/schedule/index.html">
 <meta property="og:site_name" content="ChenYunqing&#39;s Blog">
-<meta property="og:description" content="开发中       console.log(&apos;test&apos;)       //接收 	//响应事件 	window.onload = function() { 		window.addEventListener(&apos;message&apos;,function(event) {              			debugger 			// if(event.origin !== &apos;http://www.chen">
+<meta property="og:description" content="开发中       console.log(&apos;test&apos;)">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-16T09:45:50.885Z">
+<meta property="og:updated_time" content="2018-07-16T10:07:30.952Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ChenYunqing&#39;s Blog">
-<meta name="twitter:description" content="开发中       console.log(&apos;test&apos;)       //接收 	//响应事件 	window.onload = function() { 		window.addEventListener(&apos;message&apos;,function(event) {              			debugger 			// if(event.origin !== &apos;http://www.chen">
+<meta name="twitter:description" content="开发中       console.log(&apos;test&apos;)">
 
 
 
@@ -272,19 +272,6 @@
 <script type="text/javascript">
     console.log('test')
 
-    
-//接收
-	//响应事件
-	window.onload = function() {
-		window.addEventListener('message',function(event) {
-            
-			debugger
-			// if(event.origin !== 'http://www.chenyunqing.top') return;
-			console.log('message received:  ' + event.data,event);
-			window.parent.postMessage('holla back youngin!',event.origin);
-		},false);
-		
-	}
 </script>
         
       </div>
